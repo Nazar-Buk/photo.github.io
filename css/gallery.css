@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+.main{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.icon-file::before,
+.icon-home::before{
+  color: #86898B;
+}
+
+.icon-photo::before{
+  color: #19B5FE;
+}
+
+.icon-home:hover::before{
+  color: white;
+}
+
+.top-grey{
+  background: #E6E6E6;
+}
+
+.buttons a{
+  background: #19B5FE;
+  border-radius: .3rem;
+  color: white;
+  transition: .25s;
+}
+
+.buttons a:hover{
+  background: #0178ae;
+}
